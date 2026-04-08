@@ -399,7 +399,7 @@ body {
     justify-content: center;
     border-left: 1px solid #333333; /* Vertical divider line */
     padding-left: 60px;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
 }
 
@@ -499,6 +499,7 @@ body {
     letter-spacing: 0.5px;
     text-align: left;
 }
+
 
 /* Logo Strip with Borders */
 .logo-strip {
@@ -1208,6 +1209,7 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
+    
 }
 
 .footer-cube {
@@ -1443,19 +1445,23 @@ body {
     .platinum-grid,
     .gold-grid {
         grid-template-columns: repeat(2, 1fr);
+        display: flex;
     }
 
     .sponsor-item {
         padding: 24px;
         min-height: 100px;
+        display: flex;
     }
 
     .sponsor-logo {
         max-height: 32px;
+        display: flex;
     }
 
     .category-label {
         padding: 16px 24px;
+        display: flex;
     }
 }
 
@@ -1463,10 +1469,12 @@ body {
     .platinum-grid,
     .gold-grid {
         grid-template-columns: 1fr;
+        display: flex;
     }
 
     .sponsor-item {
         min-height: 80px;
+        display: flex;
     }
 }
 /* ========== CTA SECTION ========== */
